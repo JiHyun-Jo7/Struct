@@ -9,7 +9,7 @@ struct contact {
 
 int main()
 {
-	struct contact ct1 = { "Mike", "0123456789", 5 };
+	struct contact ct1 = { "Mike", "0101010101", 5 };
 	struct contact ct2 = ct1;
 
 	printf("ct1 : Output Format of Mike\n");
