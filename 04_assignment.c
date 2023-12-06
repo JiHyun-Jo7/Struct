@@ -10,7 +10,7 @@ struct contact {
 int main() 
 {
 	struct contact ct = { "Mike", "0101010101", 5 };
-	struct contact ct1 = { "Sam", "0202020202", 1 };
+	struct contact ct1 = { "Sam", "0202020202", 3 };
 
 	struct contact ct2 = ct1;
 	printf("ct2 after initailizing with ct1: %s, %s, %d\n", ct2.name, ct2.phone, ct2.ringtone);
