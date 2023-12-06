@@ -18,11 +18,11 @@ int main()
 	if (strcmp(ct1.name, ct2.name) == 0 && strcmp(ct1.phone, ct2.phone) == 0
 		&& ct1.ringtone == ct2.ringtone)
 	{
-		printf("ct1 is same as ct2. \n");
+		printf("ct1 is same as ct2 \n");
 	}
 	else
 	{
-		printf("ct1 is different with ct2. \n");
+		printf("ct1 is different with ct2 \n");
 	}
 	return 0;
 }
